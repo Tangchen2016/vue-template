@@ -3,7 +3,7 @@
 > A Vue.js project
 
 ## 技术栈
-vue2 + vuex + vue-router + webpack + es6 + vue-resource + less
+vue2 + vuex + vue-router + webpack + es6 + axios + less
 
 ## Build Setup
 
