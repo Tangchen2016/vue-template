@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* 基础css  清除默认样式*/
+/*=====================reset start=====================*/
+*{
+  padding:0; margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+  line-height:100%;
+  font-weight:normal;
+}
+body{
+  font-size:18px;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+i,em{
+  font-style:normal;
+}
+b,strong{
+  font-weight:normal;
+}
+input{
+  outline:none;
+  border:none 0;
+  padding:0;
+}
+a img{
+  border:0;
+}/*a包img：去蓝色边框*/
+img{
+  display:block;
+  width: 100%;
+  height: 100%;
+}/*a包img：去3像素bug*/
+li{
+  list-style:none;
+  vertical-align:top;
+}/*li里浮动,li不浮动，去3像素bug*/
+table,th,td,tr{
+  padding:0;
+}
+table{
+  border-collapse:collapse;
+}

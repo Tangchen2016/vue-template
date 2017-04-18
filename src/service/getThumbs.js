@@ -1,0 +1,7 @@
+
+
+const getThumbs = () => {
+  
+}
+
+export {getThumbs}

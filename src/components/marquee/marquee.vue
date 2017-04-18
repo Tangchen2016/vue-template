@@ -97,7 +97,7 @@
     }
   }
 </script>
-<style lang="less">
+<style lang="scss">
   .vux-marquee {
     width: 100%;
     overflow:hidden;
