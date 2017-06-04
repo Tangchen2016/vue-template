@@ -1,23 +1,18 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import mutations from './mutations'
 import actions from './action'
-import mutations from './mutation'
+import getters from './getters'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 const state = {
-  isValidUser: false,    // 是否在快牙内
-  isLogin: false,        // 是否登录
-  vCode: '',             // 版本号
-  userInfo: {            // 用户信息
-    token: '',           // token值
-    uuid: '',            // 设备id
-    uid: ''              // 用户id
-  }
+  thumb: []
 }
 
 export default new Vuex.Store({
   state,
+  getters,
   actions,
   mutations
 })

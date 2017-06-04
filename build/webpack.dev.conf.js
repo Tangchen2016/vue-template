@@ -28,7 +28,7 @@ module.exports = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-      favicon : 'zapya_logo.png',
+      favicon : 'favicon.png',
       inject: true
     }),
     new FriendlyErrorsPlugin()

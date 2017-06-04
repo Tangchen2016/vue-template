@@ -1,5 +1,3 @@
-export default{
-  initZapya({commit}){
-    commit('INIT_ZAPYA')
-  }
-}
+import {
+  getThumbs
+} from '../service/getThumbs'
