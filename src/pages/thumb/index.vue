@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-  import headTop from '../../components/haeder/head.vue'
+  import headTop from '../../components/header/head.vue'
   import {mapActions} from 'vuex'
   export default{
     created() {

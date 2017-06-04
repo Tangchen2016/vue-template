@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-  import headTop from '../../components/haeder/head'
+  import headTop from '../../components/header/head'
   export default{
     components: {
       headTop
