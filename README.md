@@ -7,7 +7,6 @@ vue2 + vuex + vue-router + webpack + es6 + axios + less
 
 ## Build Setup
 
-``` bash
 # install dependencies
 npm install
 
